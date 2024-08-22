@@ -6,3 +6,7 @@ exports.create = async (req, res) => {}; // create a new auth
 exports.edit = async (req, res) => {}; // edit a auth
 exports.update = async (req, res) => {}; // update a auth
 exports.delete = async (req, res) => {}; // delete a auth
+
+exports.register = async (req, res) => {
+  const { full_name, email, password, confirm_password } = req.body;
+}; //register a new user
